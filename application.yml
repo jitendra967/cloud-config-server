@@ -12,7 +12,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/doPayment
-        fiegnClientUri: http://PAYMENT-SERVICE
+        fiegnClientUri: http://http://localhost:9191
   order-service:
     endpoints:
       endpoint:
