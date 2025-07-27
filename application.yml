@@ -12,6 +12,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/doPayment
+        fiegnClientUri: http://PAYMENT-SERVICE
   order-service:
     endpoints:
       endpoint:
